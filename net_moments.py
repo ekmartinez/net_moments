@@ -30,7 +30,7 @@ sight = {
         'Country':[]
         }
 
-print('\nPlease wait, depending on the number of active connections,\n the whois service can be delayed.....\n')
+print('\nPlease wait, depending on the number of active connections,\n the whois service could be delayed.....\n')
 
 #Populates data container.
 for x in psutil.net_connections():
